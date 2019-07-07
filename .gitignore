@@ -23,6 +23,8 @@ build_*/
 !build/darknet/YoloWrapper.cs
 .fuse*
 *.weights
+# The binary
+darknet
 
 # OS Generated #
 .DS_Store*
