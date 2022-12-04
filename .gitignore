@@ -8,6 +8,8 @@
 *.exe
 *.dll
 *.lib
+*.dylib
+*.pyc
 mnist/
 data/
 caffe/
@@ -18,13 +20,29 @@ convnet/
 decaf/
 submission/
 cfg/
+temp/
 build/darknet/*
 build_*/
+ninja/
+ninja.zip
+vcpkg_installed/
 !build/darknet/YoloWrapper.cs
 .fuse*
 *.weights
 # The binary
 darknet
+build/*.cmake
+build/*.ninja
+build/*.txt
+build/*.json
+build/CMakeFiles/
+build/detect_cuda_compute_capabilities.cu
+build/.ninja_deps
+build/.ninja_log
+build/Makefile
+*/vcpkg-manifest-install.log
+build.log
+__pycache__/
 
 # OS Generated #
 .DS_Store*
@@ -44,3 +62,7 @@ src/version.h
 lib/
 share/
 include/darknet/
+uselib
+uselib_track
+darknet
+vcpkg/
